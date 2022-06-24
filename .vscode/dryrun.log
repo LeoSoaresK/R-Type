@@ -1,6 +1,6 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'd:/Users/Leo/Desktop/R-type'
-gcc -I C:\allegro-5.2.6.0-mingw-9.2.0\include -c r-type.c	
-gcc -o r-type.exe r-type.o C:\allegro-5.2.6.0-mingw-9.2.0\lib\liballegro_monolith.dll.a
+gcc -I d:/Users/Leo/Desktop/R-type/allegro-5.2.6.0-mingw-9.2.0/include -c main.c	
+gcc main.o -o r-type.exe d:/Users/Leo/Desktop/R-type/allegro-5.2.6.0-mingw-9.2.0/lib/liballegro_monolith.dll.a
 make: Leaving directory 'd:/Users/Leo/Desktop/R-type'
  

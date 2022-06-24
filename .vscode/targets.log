@@ -7,7 +7,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # There is NO WARRANTY, to the extent permitted by law.
  
 
-# Make data base, printed on Thu Jun 23 20:48:43 2022
+# Make data base, printed on Fri Jun 24 01:06:11 2022
 
 # Variables
 
@@ -19,8 +19,6 @@ SYSTEMDRIVE = C:
 LC_ALL = C
 # environment
 VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
-# makefile (from 'makefile', line 3)
-FOLDER = C:
 # makefile (from 'makefile', line 1)
 ALLEGRO_VERSION = 5.2.6.0
 # environment
@@ -28,10 +26,10 @@ USERPROFILE = C:\Users\Leo
 # environment
 LOCALAPPDATA = C:\Users\Leo\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e1f 
-e79fd-c1be-4c43-b4b5-f8eb542a3174-sock
-# environment
-VSCODE_CWD = C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f9df697b-4ccc-4dfd-a76f-a01fbc653681-sock
+# environm 
+ent
+VSCODE_CWD = C:\Windows\System32
 # environment
 SYSTEMROOT = C:\Windows
 # environment
@@ -43,20 +41,20 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1292_OPMCEOYHLKBWNHEK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15608_GPHAUKKLRRXQRILH
 # environment
-FPS_ 
-BROWSER_USER_PROFILE_STRING = Default
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+VSCODE_HANDLES_UNCAUGHT_ERRORS 
+ = true
 # default
 .VARIABLES := 
 # automatic
 %D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
-# makefile (from 'makefile', line 7)
-LIB_ALLEGRO = \lib\liballegro_monolith.dll.a
-# makefile (from 'makefile', line 6)
-PATH_ALLEGRO = $(FOLDER)$(FOLDER_NAME)
+# makefile (from 'makefile', line 5)
+LIB_ALLEGRO = /lib/liballegro_monolith.dll.a
+# makefile (from 'makefile', line 4)
+PATH_ALLEGRO = $(CURDIR)/allegro-$(ALLEGRO_VERSION)-mingw-$(MINGW_VERSION)
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # environment
@@ -64,8 +62,8 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\ 
-Leo\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\Leo\AppData\Roaming\Code\CachedData\30d9c6cd94 
+83b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -86,9 +84,9 @@ VSCODE_PIPE_LOGGING = true
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
-# envi 
-ronment
+# environment
 PROGRAMFILES = C:\Program Files (x86)
+ 
 # environment
 MFLAGS = -pqrR
 # default
@@ -104,15 +102,15 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 1292
+VSCODE_PID = 15608
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
 # automatic
-<D = $(pats 
-ubst %/,%,$(patsubst %\,%,$(dir $<)))
-# environment
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# envir 
+onment
 VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := i686-w64-mingw32
@@ -133,13 +131,13 @@ WINDIR = C:\Windows
 # environment
 MAKELEVEL := 0
 # default
-MAK 
-E = $(MAKE_COMMAND)
+MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Pro 
-grams\Microsoft VS Code\bin
+PATH = C:\W 
+indows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code\bin
 # environment
-COMPUTERNAME = DESKTOP-0AREGOU
+COM 
+PUTERNAME = DESKTOP-0AREGOU
 # default
 MAKEFILES := 
 # automatic
@@ -161,9 +159,9 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.B 
-AT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-# automatic
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# a 
+utomatic
 +F = $(notdir $+)
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
@@ -173,27 +171,27 @@ USERDOMAIN = DESKTOP-0AREGOU
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# makefile (from 'makefile', line 5)
-FOLDER_NAME = \allegro-$(ALLEGRO_VERSION)-mingw-$(MINGW_VERSION)
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := all
-# makefile (from 'makefile', line 8)
-INCLUDE_ALLEGRO = \include
+# makefile (from 'makefile', line 6)
+INCLUDE_ALLEGRO = /include
 # default
-MAKE_VERSION : 
-= 4.3
+MAKE_VERSION := 4.3
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'makefile', line 8)
+BUILD := d:/Users/Leo/Desktop/R-type/build/
 # environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-0AREGOU
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-0AR 
+EGOU
 # environment
 NUMBER_OF_PROCESSORS = 8
 # environment
 PUBLIC = C:\Users\Public
 # environment
 APPDATA = C:\Users\Leo\AppData\Roaming
+# makefile (from 'makefile', line 10)
+CFLAGS = -I
 # environment
 HOMEDRIVE = C:
 # environment
@@ -206,7 +204,8 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Leo\AppData\Local\Temp
-# environment
+# env 
+ironment
 VSCODE_IPC_HOOK = \\.\pipe\a1d05713baf1a46549abc376f54c8ba5-1.68.1-main-sock
 # default
 .RECIPEPREFIX := 
@@ -216,17 +215,19 @@ VSCODE_IPC_HOOK = \\.\pipe\a1d05713baf1a46549abc376f54c8ba5-1.68.1-main-sock
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'makefile', line 11)
+TARGET = r-type.exe
 # environment
 SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync
 # environment
-PROCE 
-SSOR_REVISION = 0200
+PROCESSOR_REV 
+ISION = 0200
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=10/128=8%
+# Load=102/1024=10%, Rehash=0, Collisions=13/129=10%
 
 # Pattern-specific Variable Values
 
@@ -234,7 +235,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key d:/Users/Leo/Desktop/R-type, mtime 1656028120): 283 files, no impossibilities.
+# . (key d:/Users/Leo/Desktop/R-type, mtime 1656040796): 283 files, no impossibilities.
 
 # 283 files, no impossibilities in 1 directories.
 
@@ -245,14 +246,19 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 # Files
 
 all: r-type.exe
-#  Command line target. 
-
-#  Implicit rule search has not been done.
-#  Last modified -4
+#  Command line target.
+#  Imp 
+licit rule search has been done.
+#  File does not exist.
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'makefile', line 13):
-	
+
+# Not a target:
+main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-24 00:19:51
+#  File has been updated.
+#  Successfully updated.
 
 # Not a target:
 .DEFAULT:
@@ -263,58 +269,53 @@ all: r-type.exe
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2021-12-26 15:40:46
-#  File has been updated.
+#  Last modified 2022-06-24 00:04:46
+#  File has b 
+een updated.
 #  Successfully updated.
-
-r-type.o: r-type.c
-#  Implicit rule search has not been done.
-#  Last modified 2022-01-18 17:35:50
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'makefile', line 18):
-	gcc -I $(PATH_ALLEGRO)$(INCLUDE_ALLEGRO) -c r-type.c	
-	
 
 clean:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'makefile', line 22):
-	del r-type.o
+#  recipe to execute (from 'makefile', line 23):
+	del main.o
 	del r-type.exe
 
-# Not a target:
-r-type.c:
-#  Implicit rule search has been done.
-#  Last modified 2022-01-18 17:35:48
-#  File has  
-been updated.
-#  Successfully updated.
-
-r-type.exe: r-type.o
+main.o: main.c
 #  Implicit rule search has not been done.
-#  Last modified 2022-01-18 17:35:50
+#  Last modified 2022-06-24 00:19:56
 #  File has been updated.
 #  Successfully updated.
-#  recipe to execute (from 'makefile', line 15):
-	gcc -o r-type.exe r-type.o $(PATH_ALLEGRO)$(LIB_ALLEGRO)
+#  recipe to execute (from 'makefile', line 16):
+	gcc $(CFLAGS) $(PATH_ALLEGRO)$(INCLUDE_ALLEGRO) -c main.c	
+	
+
+r-type.exe: main.o
+#  
+ Implicit rule search has not been done.
+#  Last modified 2022-06-24 00:19:56
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'makefile', line 19):
+	gcc main.o -o r-type.exe $(PATH_ALLEGRO)$(LIB_ALLEGRO)
+	
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/24=0%
+# Load=8/1024=1%, Rehash=0, Collisions=0/23=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 287 / 
- storage = 5688 B / avg = 19 B
-# current buf: size = 8174 B / used = 5688 B / count = 287 / avg = 19 B
+# strcache buffers: 1 (0) / strings = 287 / storage = 5665 B / avg = 19 B
+# current buf: size = 8174 B / u 
+sed = 5665 B / count = 287 / avg = 19 B
 
 # strcache performance: lookups = 300 / hit rate = 4%
 # hash-table stats:
 # Load=287/8192=4%, Rehash=0, Collisions=7/300=2%
-# Finished Make data base on Thu Jun 23 20:48:43 2022
+# Finished Make data base on Fri Jun 24 01:06:11 2022
 
  
