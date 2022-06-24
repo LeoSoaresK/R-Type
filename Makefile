@@ -1,9 +1,9 @@
 ALLEGRO_VERSION=5.2.6.0
 MINGW_VERSION=9.2.0
 
-PATH_ALLEGRO=$(CURDIR)\allegro-$(ALLEGRO_VERSION)-mingw-$(MINGW_VERSION)
-LIB_ALLEGRO=\lib\liballegro_monolith.dll.a
-INCLUDE_ALLEGRO=\include
+PATH_ALLEGRO=$(CURDIR)/allegro-$(ALLEGRO_VERSION)-mingw-$(MINGW_VERSION)
+LIB_ALLEGRO=/lib/liballegro_monolith.dll.a
+INCLUDE_ALLEGRO=/include
 
 all: r-type.exe
 
