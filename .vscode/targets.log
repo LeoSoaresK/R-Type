@@ -5,9 +5,8 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Fri Jun 24 01:06:11 2022
+# Make data base, printed on Fri Jun 24 15:15:14 2022
 
 # Variables
 
@@ -26,10 +25,9 @@ USERPROFILE = C:\Users\Leo
 # environment
 LOCALAPPDATA = C:\Users\Leo\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f9df697b-4ccc-4dfd-a76f-a01fbc653681-sock
-# environm 
-ent
-VSCODE_CWD = C:\Windows\System32
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bc2a2eb2-2613-4857-919e-e49e333d50a5-sock
+# environment
+VSCODE_CWD = C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code
 # environment
 SYSTEMROOT = C:\Windows
 # environment
@@ -41,12 +39,11 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15608_GPHAUKKLRRXQRILH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16748_KAALJBHFASVAZPND
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS 
- = true
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # automatic
@@ -62,8 +59,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Leo\AppData\Roaming\Code\CachedData\30d9c6cd94 
-83b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\Leo\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -86,7 +82,6 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
 PROGRAMFILES = C:\Program Files (x86)
- 
 # environment
 MFLAGS = -pqrR
 # default
@@ -102,15 +97,14 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 15608
+VSCODE_PID = 16748
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
-# envir 
-onment
+# environment
 VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
 # default
 MAKE_HOST := i686-w64-mingw32
@@ -133,11 +127,9 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\W 
-indows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code\bin
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code\bin
 # environment
-COM 
-PUTERNAME = DESKTOP-0AREGOU
+COMPUTERNAME = DESKTOP-0AREGOU
 # default
 MAKEFILES := 
 # automatic
@@ -160,8 +152,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 PROGRAMW6432 = C:\Program Files
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-# a 
-utomatic
+# automatic
 +F = $(notdir $+)
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
@@ -182,8 +173,7 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # makefile (from 'makefile', line 8)
 BUILD := d:/Users/Leo/Desktop/R-type/build/
 # environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-0AR 
-EGOU
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-0AREGOU
 # environment
 NUMBER_OF_PROCESSORS = 8
 # environment
@@ -204,8 +194,7 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\Leo\AppData\Local\Temp
-# env 
-ironment
+# environment
 VSCODE_IPC_HOOK = \\.\pipe\a1d05713baf1a46549abc376f54c8ba5-1.68.1-main-sock
 # default
 .RECIPEPREFIX := 
@@ -222,8 +211,7 @@ SESSIONNAME = Console
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync
 # environment
-PROCESSOR_REV 
-ISION = 0200
+PROCESSOR_REVISION = 0200
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 # variable set hash-table stats:
@@ -235,9 +223,9 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Directories
 
-# . (key d:/Users/Leo/Desktop/R-type, mtime 1656040796): 283 files, no impossibilities.
+# . (key d:/Users/Leo/Desktop/R-type, mtime 1656094263): 13 files, no impossibilities.
 
-# 283 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -247,8 +235,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 all: r-type.exe
 #  Command line target.
-#  Imp 
-licit rule search has been done.
+#  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
 #  Successfully updated.
@@ -256,7 +243,7 @@ licit rule search has been done.
 # Not a target:
 main.c:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-24 00:19:51
+#  Last modified 2022-06-24 15:10:48
 #  File has been updated.
 #  Successfully updated.
 
@@ -270,8 +257,7 @@ main.c:
 Makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-06-24 00:04:46
-#  File has b 
-een updated.
+#  File has been updated.
 #  Successfully updated.
 
 clean:
@@ -284,17 +270,17 @@ clean:
 
 main.o: main.c
 #  Implicit rule search has not been done.
-#  Last modified 2022-06-24 00:19:56
+#  Last modified 2022-06-24 15:11:02
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'makefile', line 16):
-	gcc $(CFLAGS) $(PATH_ALLEGRO)$(INCLUDE_ALLEGRO) -c main.c	
+	gcc $(CFLAGS) $(PATH_ALLEGRO)$(INCLUDE_ALLEGRO) -c  
+main.c	
 	
 
 r-type.exe: main.o
-#  
- Implicit rule search has not been done.
-#  Last modified 2022-06-24 00:19:56
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-24 15:11:03
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'makefile', line 19):
@@ -309,13 +295,13 @@ r-type.exe: main.o
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 287 / storage = 5665 B / avg = 19 B
-# current buf: size = 8174 B / u 
-sed = 5665 B / count = 287 / avg = 19 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 164 B / avg = 9 B
+# c 
+urrent buf: size = 8174 B / used = 164 B / count = 17 / avg = 9 B
 
-# strcache performance: lookups = 300 / hit rate = 4%
+# strcache performance: lookups = 30 / hit rate = 43%
 # hash-table stats:
-# Load=287/8192=4%, Rehash=0, Collisions=7/300=2%
-# Finished Make data base on Fri Jun 24 01:06:11 2022
+# Load=17/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Fri Jun 24 15:15:14 2022
 
  
