@@ -1,6 +1,6 @@
 void desenhoInterface()
 {
-    al_draw_bitmap(interface, 0, 750, 0);
+    al_draw_bitmap(interface_, 0, 750, 0);
 }
 
 void desenhaPontuacao(int pontos)

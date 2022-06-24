@@ -5,8 +5,9 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Fri Jun 24 15:15:14 2022
+# Make data base, printed on Fri Jun 24 17:59:27 2022
 
 # Variables
 
@@ -25,8 +26,9 @@ USERPROFILE = C:\Users\Leo
 # environment
 LOCALAPPDATA = C:\Users\Leo\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-bc2a2eb2-2613-4857-919e-e49e333d50a5-sock
-# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-719347c2-5435-427f-bcda-c80b7d05b78c-sock
+# environm 
+ent
 VSCODE_CWD = C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code
 # environment
 SYSTEMROOT = C:\Windows
@@ -39,10 +41,11 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16748_KAALJBHFASVAZPND
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11904_YBRLKRYKBOKVDPQJ
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
+# environm 
+ent
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
@@ -59,7 +62,8 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\Leo\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = C:\Users\Leo\AppData\ 
+Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -81,7 +85,8 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 *D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
 # environment
-PROGRAMFILES = C:\Program Files (x86)
+PROG 
+RAMFILES = C:\Program Files (x86)
 # environment
 MFLAGS = -pqrR
 # default
@@ -97,13 +102,14 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 16748
+VSCODE_PID = 11904
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 *F = $(notdir $*)
 # automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+<D = $(patsubst %/,%,$ 
+(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
 # default
@@ -125,9 +131,11 @@ WINDIR = C:\Windows
 # environment
 MAKELEVEL := 0
 # default
-MAKE = $(MAKE_COMMAND)
+MAKE = $(MAKE_ 
+COMMAND)
 # environment
-PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Programs\Microsoft VS Code\bin
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\mingw32\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Leo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Leo\AppData\Local\Programs\Python\Python310\;C:\Users\Leo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Leo\AppData\Local\Programs\Micro 
+soft VS Code\bin
 # environment
 COMPUTERNAME = DESKTOP-0AREGOU
 # default
@@ -151,7 +159,8 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VB 
+S;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
@@ -173,7 +182,8 @@ PROGRAMFILES(X86) = C:\Program Files (x86)
 # makefile (from 'makefile', line 8)
 BUILD := d:/Users/Leo/Desktop/R-type/build/
 # environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-0AREGOU
+USERD 
+OMAIN_ROAMINGPROFILE = DESKTOP-0AREGOU
 # environment
 NUMBER_OF_PROCESSORS = 8
 # environment
@@ -193,7 +203,8 @@ COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-TEMP = C:\Users\Leo\AppData\Local\Temp
+TEMP = C:\ 
+Users\Leo\AppData\Local\Temp
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\a1d05713baf1a46549abc376f54c8ba5-1.68.1-main-sock
 # default
@@ -209,7 +220,8 @@ TARGET = r-type.exe
 # environment
 SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver outpu 
+t-sync
 # environment
 PROCESSOR_REVISION = 0200
 # environment
@@ -233,7 +245,8 @@ PROCESSOR_IDENTIFIER = AMD64 Family 21 Model 2 Stepping 0, AuthenticAMD
 
 # Files
 
-all: r-type.exe
+all: r-type.ex 
+e
 #  Command line target.
 #  Implicit rule search has been done.
 #  File does not exist.
@@ -256,7 +269,8 @@ main.c:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-24 00:04:46
+#  Last modified 2 
+022-06-24 00:04:46
 #  File has been updated.
 #  Successfully updated.
 
@@ -302,6 +316,6 @@ urrent buf: size = 8174 B / used = 164 B / count = 17 / avg = 9 B
 # strcache performance: lookups = 30 / hit rate = 43%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=1/30=3%
-# Finished Make data base on Fri Jun 24 15:15:14 2022
+# Finished Make data base on Fri Jun 24 17:59:27 2022
 
  

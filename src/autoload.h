@@ -21,6 +21,8 @@
 #include "config/random.h"
 #include "config/bitmaps.h"
 #include "config/sound.h"
+#include "config/record.h"
+#include "config/destroy.h"
 
 // Includes de objetos
 #include "objects/nave.h"
@@ -43,3 +45,6 @@
 
 // Includes de execucao do jogo
 #include "game/opening.h"
+#include "game/objects.h"
+#include "game/playing.h"
+#include "game/end.h"

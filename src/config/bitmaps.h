@@ -205,7 +205,7 @@ ALLEGRO_BITMAP *explosao5;
 ALLEGRO_BITMAP *explosao6;
 
 // Interface -------------------------------------------------------------------------------------------------------------------------------------------------------------
-ALLEGRO_BITMAP *interface;
+ALLEGRO_BITMAP *interface_;
 ALLEGRO_BITMAP *N1;
 ALLEGRO_BITMAP *N2;
 ALLEGRO_BITMAP *N3;
@@ -553,7 +553,7 @@ void initBitmaps()
     al_convert_mask_to_alpha(explosao6, al_map_rgb(0, 0, 0));
 
     // Interface --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    interface = al_load_bitmap("src/sprites/Interface/interface.png");
+    interface_ = al_load_bitmap("src/sprites/Interface/interface.png");
     N1 = al_load_bitmap("src/sprites/Interface/N1.png");
     N2 = al_load_bitmap("src/sprites/Interface/N2.png");
     N3 = al_load_bitmap("src/sprites/Interface/N3.png");
