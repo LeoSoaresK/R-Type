@@ -1,8 +1,0 @@
-{
-    "makefile.extensionOutputFolder": "./.vscode",
-    "files.associations": {
-        "asteroide.h": "c",
-        "tiro.h": "c",
-        "allegro_acodec.h": "c"
-    }
-}
